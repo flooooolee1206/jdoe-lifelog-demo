@@ -1,2 +1,5 @@
-def format_report_anchor(report_date: str) -> str:
-    return report_date
+from datetime import datetime
+
+
+def format_report_anchor(report_date: datetime) -> str:
+    return report_date.strftime("%Y-%m-%d")
