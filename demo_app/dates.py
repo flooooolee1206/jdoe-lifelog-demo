@@ -1,2 +1,2 @@
 def format_report_anchor(report_date: str) -> str:
-    return "today"
+    return report_date
